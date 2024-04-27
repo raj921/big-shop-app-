@@ -11,7 +11,6 @@ tasks:
       sed -i "s|TOOL_BASE_URL=.*|TOOL_BASE_URL=\"$GITPOD_TOOL_BASE_URL\"|" ./apps/web/.env
       npm install -g @marblism/studio@0.1.40
       marblism-studio
-
 ports:
   - name: Web
     port: 8099
